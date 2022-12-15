@@ -3,24 +3,37 @@ body >*{
 }
 
 header{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-items: center;
+    background-color: rgb(224, 225, 221);
+    z-index: 300;
 }
 
 .headerstuff{
     /* font-family:Verdana, sans-serif; */
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #title{
     text-align: center;
-    font-size:50px;
+    font-size:60px;
+    color: rgb(27, 38, 59);
+    font-weight: bold;
+}
+
+.strong{
+    font-size: 80px;
 }
 
 .menu{
-    outline: 1px dashed black;
+    outline: 1px solid rgb(27, 38, 59);
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(27, 38, 59);
+    height: 45px;
 }
 
 .menu > *{
@@ -28,10 +41,30 @@ header{
     display: inline-block;
 }
 
+.menubutton{
+    background-color: rgb(119, 141, 169);
+    width: 90px;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    top:7.5px;
+    border-radius: 1px;
+}
+
+.menulink{
+    color:rgb(27, 38, 59);
+    position: relative;
+    top:2px;
+}
 
 
 
 /* IMG MOTTO SHELL  */
+/* 
+.content{
+    display: flex;
+    justify-content: center;
+} */
 
 .imgmottoshell{
     height: 900px;
@@ -52,7 +85,8 @@ header{
     position:relative;
     top: -450px;
     text-align: center;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
+    font-family: 'Times New Roman', Times, serif;
     font-size:35px;
     width: 800px;
     left: 400px;
@@ -74,12 +108,13 @@ header{
     display: block;
     display: inline-block;
     text-align: center;
-    outline:1px solid black;
+    outline:1px solid rgb(27, 38, 59);
     width:479px;
 }
 
 h2{
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -87,6 +122,14 @@ h2{
 
 
 /* ABOUT WARREN */
+.leadership{
+    position: relative;
+    left: 145px;
+    border-radius: 3px;
+    width: 1150px;
+    border: 3px solid red;
+}
+
 .abtwarren{
     display:flex;
 }
@@ -99,19 +142,24 @@ h2{
 
 
 .footer{
-    outline: 1px solid black;
+    outline: 1px solid rgb(27, 38, 59);
     display:flex;
 }
 
 
 
 .footer >*{
-    outline: 1px solid black;
+    outline: 1px solid rgb(27, 38, 59);
     display: block;
     display: inline-block
 }
 
 
 .official{
-    outline: 1px solid black;
+    outline: 1px solid rgb(27, 38, 59);
+}
+
+.messages{
+    position: relative;
+    left: 310px;
 }
