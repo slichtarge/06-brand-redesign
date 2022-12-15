@@ -1,0 +1,117 @@
+body >*{
+    outline: 1px solid black;
+}
+
+header{
+    display: flex;
+    justify-items: center;
+}
+
+.headerstuff{
+    /* font-family:Verdana, sans-serif; */
+    font-family: Georgia, serif;
+}
+
+#title{
+    text-align: center;
+    font-size:50px;
+}
+
+.menu{
+    outline: 1px dashed black;
+    display:flex;
+    justify-content: center;
+}
+
+.menu > *{
+    display: block;
+    display: inline-block;
+}
+
+
+
+
+/* IMG MOTTO SHELL  */
+
+.imgmottoshell{
+    height: 900px;
+}
+
+.buildimage_div{
+    width:100%;
+    height: 900px;
+    overflow: hidden;
+    position:relative;
+}
+
+.buildimage{
+    min-width:100%;
+}
+
+.motto{
+    position:relative;
+    top: -450px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size:35px;
+    width: 800px;
+    left: 400px;
+}
+
+.highlight{
+    background-color: white;
+}
+
+
+
+/* COLUMNS */
+
+.columns{
+    display:flex;
+    justify-content: center;
+}
+.columns >*{
+    display: block;
+    display: inline-block;
+    text-align: center;
+    outline:1px solid black;
+    width:479px;
+}
+
+h2{
+    font-family: Georgia, serif;
+}
+
+
+
+
+
+/* ABOUT WARREN */
+.abtwarren{
+    display:flex;
+}
+
+.abtwarren >*{
+    display: box;
+    display: inline-box;
+}
+
+
+
+.footer{
+    outline: 1px solid black;
+    display:flex;
+}
+
+
+
+.footer >*{
+    outline: 1px solid black;
+    display: block;
+    display: inline-block
+}
+
+
+.official{
+    outline: 1px solid black;
+}
