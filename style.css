@@ -25,7 +25,7 @@ header{
 }
 
 .strong{
-    font-size: 80px;
+    font-size: 83px;
 }
 
 .menu{
@@ -60,11 +60,10 @@ header{
 
 
 /* IMG MOTTO SHELL  */
-/* 
+
 .content{
-    display: flex;
-    justify-content: center;
-} */
+    background-color: rgb(65, 90, 119);
+}
 
 .imgmottoshell{
     height: 900px;
@@ -88,7 +87,16 @@ header{
     /* font-family: Georgia, serif; */
     font-family: 'Times New Roman', Times, serif;
     font-size:35px;
-    width: 800px;
+    width: 740px;
+    left: 400px;
+}
+
+.mottofake{
+    position:relative;
+    top: -370px;
+    text-align: center;
+    font-size:35px;
+    width: 740px;
     left: 400px;
 }
 
@@ -105,11 +113,31 @@ header{
     justify-content: center;
 }
 .columns >*{
-    display: block;
-    display: inline-block;
     text-align: center;
     outline:1px solid rgb(27, 38, 59);
-    width:479px;
+    width:400px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(224, 225, 221);
+}
+
+.subcol{
+    display: block;
+    display: inline-block;
+    margin: 20px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subcol{
+    /* display: flex; */
+    justify-content: center;
+}
+
+.columnbutton{
+    margin: 5px;
 }
 
 h2{
@@ -117,26 +145,78 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.label{
+    border: 1px solid black;
+    text-align: center;
+    /* width: 100%; */
+}
+
 
 
 
 
 /* ABOUT WARREN */
+.leadershipshell{
+    display:flex;
+    justify-content: center;
+    /* border: 10px solid blue; */
+}
+
 .leadership{
-    position: relative;
-    left: 145px;
+    /* position: relative;
+    left: 145px; */
     border-radius: 3px;
     width: 1150px;
     border: 3px solid red;
+    background-color: rgb(224, 225, 221);
+}
+
+.leadership >*{
+    padding: 5px;
+}
+
+
+.messages{
+    padding-top:15px;
+    position: relative;
+    left: 310px;
 }
 
 .abtwarren{
-    display:flex;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    border: 1px solid blue;
+}
+
+.abtwarrenpic{
+    width: 500px;
+    /* border: 13px solid red; */
+    display: flex;
+    justify-content: center;
 }
 
 .abtwarren >*{
-    display: box;
-    display: inline-box;
+    display:flex;
+    border: 1px solid green;
+    justify-content: center;
+}
+
+.abtwarrentext{
+    padding-top:15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    width: 950px;
+    text-align: center;
+    font-style: italic;
+    /* left: 400px; */
+}
+
+.clickbait{
+    font-size: 20px;
+    color:rgb(65, 90, 119);
+    margin-bottom: 30px;
 }
 
 
@@ -157,9 +237,7 @@ h2{
 
 .official{
     outline: 1px solid rgb(27, 38, 59);
-}
-
-.messages{
-    position: relative;
-    left: 310px;
+    background-color: rgb(27, 38, 59);
+    color:rgb(224, 225, 221);
+    text-align: center;
 }

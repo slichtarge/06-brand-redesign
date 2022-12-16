@@ -15,11 +15,10 @@
             <h1 class="center" id="title"><strong class = "strong">B</strong>ERKSHIRE <strong class = "strong">H</strong>ATHAWAY</h1>
         </div>
         <div class = "menu">
-        
-            <div class = "menubutton"><a class = "menulink" href = "#">Company</a></div>
-            <div class = "menubutton"><a class = "menulink" href = "#">Investors</a></div>
-            <div class = "menubutton"><a class = "menulink" href = "#">Holdings</a></div>
-            <div class = "menubutton"><a class = "menulink" href = "#">Leadership</a></div>
+            <div class = "menubutton"><a class = "menulink" href = "#contentnav">Investors</a></div>
+            <div class = "menubutton"><a class = "menulink" href = "#contentnav">Holdings</a></div>
+            <div class = "menubutton"><a class = "menulink" href = "#contentnav">Company</a></div>
+            <div class = "menubutton"><a class = "menulink" href = "#leadershipnav">Leadership</a></div>
         </div>
     </header>
 
@@ -29,50 +28,88 @@
             <!-- https://www.morningstar.com/articles/1092924/what-i-hope-my-12-year-old-learned-at-berkshire-hathaways-annual-meeting -->
         </div>
         <div class="motto">
-            <p><span class="highlight">"It's far better to buy a wonderful company at a fair price, than a fair company at a wonderful price." <em>Warren Buffet</em> </span></p>
+            <p><span class="highlight">"It's far better to buy a wonderful company at a fair price, than a fair company at a wonderful price." <em> CEO Warren Buffet</em> </span></p>
+        </div>
+        <div class="mottofake" id="contentnav">
         </div>
     </div>
 
-    <div class = "content">
+    <div class = "content" id = "content">
 
         <div class="columns">
-            <div class="company">
-                <div>
-                    <h2>Our Company</h2>
-                </div>
-                <div>
-                    <p>fancytext</p>
-                </div>
-            </div>
-            <div class="investors">
+            <div class="subcol investors" id="investors">
                 <div>
                     <h2>Our Investors</h2>
                 </div>
                 <div>
-                    <p>fancytext</p>
+                    <p class = "label">Links to help you jumpstart your investment into Berkshire Hathaway today.<p>
+                </div>
+                <div>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Berkshire Hathaway Energy - 2021 Investor Presentation</a></button>
+                    <button class = "columnbutton" type="submit" id="leadershipnav"><a class = "columnlink" href = "#">Facts Regarding Berkshire's 2021 Investments in Activision Common Stock</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Common Stock Information</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Annual Meeting Information</a></button>
                 </div>
             </div>
-            <div class="holdings">
+            <div class="subcol holdings">
                 <div>
                     <h2>Our Holdings</h2>
                 </div>
                 <div>
-                    <p>fancytext</p>
+                    <p class = "label">Information about the subsidiaries and major assets we are proud to hold.<p>
+                </div>
+                <div>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Links to Berkshire Subsidiary Companies</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Annual & Interim Reports</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Link to SEC Filings</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">News Releases from Berkshire Hathaway and from Warren Buffett</a></button>
+                </div>
+            </div>
+            <div class="subcol company">
+                <div>
+                    <h2>Our Company</h2>
+                </div>
+                <div>
+                    <p class = "label">A few links providing insight into our company, how we run, and what we value.<p>
+                </div>
+                <div>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Corporate Governance</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Sustainability</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Berkshire Activeware</a></button>
+                    <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Celebrating 50 Years of a Profitable Partnership</a></button>
                 </div>
             </div>
         </div>
 
-        <div class="leadership">
-            <div class ="messages">
-                <h2>MESSAGES FROM OUR LEADERSHIP</h2>
-            </div>
-            <div class = "abtwarren">
-                <div class = "abtwarrenpic">
-                    <img alt = "warrenbuffet" src = "warrenbuffet.png">
-                    <!-- https://www.forbes.com/profile/warren-buffett/?sh=282d4eed4639 -->
+        <div class = "leadershipshell">
+            <div class="leadership">
+                <div class ="messages">
+                    <h2>MESSAGES FROM OUR LEADERSHIP</h2>
                 </div>
-                <div class = "abtwarrentext">
-                    <p>blah blah warren buffet quotes blah blah </p>
+                <div class = "abtwarren">
+                    <div>
+                        <div class = "abtwarrenpic">
+                            <img alt = "warrenbuffet" src = "warrenbuffet.png">
+                            <!-- https://www.forbes.com/profile/warren-buffett/?sh=282d4eed4639 -->
+                        </div>
+                    </div>
+                    <div>
+                        <div class = "abtwarrentext">
+                            <p>"You probably know that I don't make stock recommendations. However, I have two thoughts regarding your personal expenditures that can save you real money..."</p>
+                        </div>
+                    </div>
+                    <div>
+                        <a class ="clickbait" href="https://www.berkshirehathaway.com/message.html">READ MORE HERE</a>
+                    </div>
+                    <div>
+                        <p>Additional Messages from Our Industry Leaders</p>
+                    </div>
+                    <div>
+                        <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Special Letters from Warren & Charlie RE:Past, Present and Future</a></button>
+                        <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Warren Buffett's Letters to Berkshire Shareholders</a></button>
+                        <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Charlie Munger's Letters to Wesco Shareholders</a></button>
+                        <button class = "columnbutton" type="submit"><a class = "columnlink" href = "#">Information Regarding Warren E. Buffett's Annual Contributions to Five Foundations</a></button>
+                    </div>
                 </div>
             </div>
         </div>
