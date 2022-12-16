@@ -18,6 +18,8 @@ header{
 .headerstuff, .fancy{
     /* font-family:Verdana, sans-serif; */
     /* font-family: Georgia, serif; */
+    /* outline:1px solid blue; */
+    /* width: 500px; */
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -371,4 +373,11 @@ h2{
     position:relative;
     top:10px;
     /* outline: 1px solid green; */
+}
+
+.logo{
+    position: relative;
+    top: 15px;
+    height:50px;
+    width: 50px;
 }
